@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+* {
+  font-family: 'Dongle', sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: url("https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-vanilla/master/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#IU {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+article {
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.question {
+  display: none;
+}
+
+.result {
+  display: none;
+}
+
+.binfo {
+  background-color: rgba(233, 102, 124, 0.171);
+  border: 1px solid rgb(255, 0, 200) ;
+  color: black;
+}
+.binfo:hover {
+  background-color: blueviolet;
+  border: 1px solid fuchsia ;
+}
+
+.barc {
+  background-color: pink;
+}
+
+.ques1 {
+  background-color: rgba(233, 102, 124, 0.171);
+  border: 10px solid rgb(202, 131, 187) ;
+  width: 30%;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.ques1:hover {
+  background-color: rgba(137, 43, 226, 0.274);
+}
+
+.ques2 {
+  background-color: rgba(233, 102, 124, 0.171);
+  border-width: 7px 7px 1px 7px;
+  border-color: rgb(202, 131, 187);
+  border-style: solid;
+  width: 50%;
+  height: 150px;
+  border-radius: 3px;
+  font-size: 23px;
+  margin: 0 auto;
+}
+
+.ques2:hover {
+  background-color: rgba(137, 43, 226, 0.274);
+}
+.ques3 {
+  background-color: rgba(233, 102, 124, 0.171);
+  border-width: 1px 7px 7px 7px;
+  border-color: rgb(202, 131, 187);
+  border-style: solid;
+  width: 50%;
+  height: 150px;
+  border-radius: 3px;
+  font-size: 23px;
+  margin: 0 auto;
+}
+
+.ques3:hover {
+  background-color: rgba(137, 43, 226, 0.274);
+}
+#img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#director {
+  border-bottom: 3px solid #ebebeb;
+  padding-bottom: 20px;
+}
+
+#explain {
+  border-bottom: 3px solid #ebebeb;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.addthis_inline_share_toolbox_e8hp {
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 300px;
+}
